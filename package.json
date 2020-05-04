@@ -4,7 +4,8 @@
   "description": "core dev configs",
   "scripts": {
     "build": "pika build",
-    "publish": "pika publish"
+    "publish": "pika publish",
+    "version": "npm run build"
   },
   "keywords": [
     "core-dev",
