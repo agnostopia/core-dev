@@ -1,0 +1,6 @@
+{
+	"extends": "./tsconfigs/pack.json",
+	"include": [
+		"./src/**/*.ts"
+	]
+}
