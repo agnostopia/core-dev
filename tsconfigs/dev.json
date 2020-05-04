@@ -1,0 +1,6 @@
+{
+	"extends": "./pack.json",
+	"compilerOptions": {
+		"module": "commonjs"
+	}
+}
