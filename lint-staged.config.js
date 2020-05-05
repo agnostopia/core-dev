@@ -1,1 +1,3 @@
-module.exports = require("./pkg/dist-node").lintStaged;
+module.exports = {
+	"./!(configs)(**/|)*.{js, ts}": ["eslint --ext .js,.ts --fix"],
+};
