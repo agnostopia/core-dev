@@ -1,6 +1,6 @@
 {
   "name": "@agnostopia/core-dev",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "core dev configs",
   "scripts": {
     "build": "pika build",
