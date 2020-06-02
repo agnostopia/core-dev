@@ -99,10 +99,10 @@ pnpm i -D ava esm nyc ts-node
 
 Then add the files:
 
-`ava.config.js` or copy from `node_modules/@agnostopia/core-dev/configs` folder.
+`ava.config.cjs` or copy from `node_modules/@agnostopia/core-dev/configs` folder.
 
-``` js
-module.exports = require("@agnostopia/core-dev").ava;
+``` cjs
+module.exports = require("@agnostopia/core-dev").ava
 ```
 
 `nyc.config.js` or copy from `node_modules/@agnostopia/core-dev/configs` folder.
@@ -116,7 +116,7 @@ Finally, add Test and Test Coverage scripts to `package.json` scripts.
 ``` json
 {
     "scripts": {
-        "test": "ava -t | tnyan",
+        "test": "ava -t",
         "test-cov": "nyc ava"
     }
 }

@@ -1,5 +1,5 @@
 export default {
-	trailingComma: "es5",
+	trailingComma: "all",
 	proseWrap: "always",
 	endOfLine: "lf",
 };
